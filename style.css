@@ -1,0 +1,51 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #000;
+}
+
+h1 {
+    color: #ffd000;
+    margin: 0;
+    mix-blend-mode: difference;
+    font-size: 10rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #daa520;
+    width: 15rem;
+    background: #000000;
+    background-image: url(images/table.png);
+    padding: 8px 0;
+    font-weight: bold;
+    border: 2px solid #daa520;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+button:hover {
+    background: #ffb700;
+    cursor: pointer;
+    color: #ffd900;
+    border: 2px solid #ffd900;
+    background-image: url(images/table-hover.png);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url("images/ace-of-spades.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 675px;
+    height: 100vh;
+}
+
